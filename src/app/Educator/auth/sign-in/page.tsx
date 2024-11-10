@@ -18,8 +18,8 @@ function signIn() {
     <main className="w-full h-screen flex justify-center items-center">
       <Card className="min-w-80 border-0 shadow-white">
         <CardHeader>
-          <CardTitle>Sign In</CardTitle>
-          <CardDescription>Welcome Back, Start Learning Now!</CardDescription>
+          <CardTitle className="text-2xl">Sign In</CardTitle>
+          <CardDescription>Welcome Back, Let&apos;s Start Teaching!</CardDescription>
         </CardHeader>
         <CardContent>
           <form>
@@ -37,13 +37,13 @@ function signIn() {
           </form>
         </CardContent>
         <CardFooter className="flex-col w-full">
-          <Link href='/auth/verify' className="w-full"><Button className="w-full ">Submit</Button></Link>
+          <Link href='/Educator/auth/verify' className="w-full"><Button className="w-full ">Submit</Button></Link>
           <div className="w-full flex justify-center items-center gap-3 my-4">
             <Separator className="w-28" />
             <p className="text-zinc-600">or</p>
             <Separator className="w-28" />
           </div>
-          <Link href="/auth/sign-up" className="w-full">
+          <Link href="/Educator/auth/sign-up" className="w-full">
             <Button variant="outline" className="w-full">
               Sign Up
             </Button>
