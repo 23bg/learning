@@ -46,7 +46,7 @@ export default function Home() {
                 <p className="py-2 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ad recusandae sint eum totam impedit laborum sed, debitis minima, distinctio ex iure tempore et. Placeat tempora dolor ab cupiditate voluptate.</p>
               </div>
               <div className="p-5 w-full h-full border">
-                <p className="py-2 text-4xl font-semibold">Educator</p>
+                <p className="py-2 text-4xl font-semibold">Learner</p>
                 <div className="w-full relative">
                   <AspectRatio ratio={4 / 3}>
                     <Image
