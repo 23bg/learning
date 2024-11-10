@@ -2,7 +2,7 @@ import CustomeFooter from "@/components/custome-footer";
 import CustomeNav from "@/components/custome-nav";
 import Image from "next/image";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
-import { Separator } from "@/components/ui/separator";
+
 
 export default function Home() {
   return (
